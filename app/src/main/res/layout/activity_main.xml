@@ -13,9 +13,10 @@
         android:adjustViewBounds="true"
         tools:ignore="ContentDescription"/>
     <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="1dp">
+        android:layout_weight="1">
         <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
